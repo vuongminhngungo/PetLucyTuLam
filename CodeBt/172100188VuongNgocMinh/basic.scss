@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
+body
+{
+    font-family: 'Roboto', sans-serif;
+}
+.container
+{
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+.bt9-10 
+{
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;  
+    .container
+    {
+        // 
+        .newspaper
+        {
+            display: flex;
+            .floating
+            {
+                max-width: 600px;
+                box-shadow: 0px 12px 24px -12px rgba(0, 0, 0, 0.5);
+                section.floating-images
+                {
+                    padding: 20px;
+                    background-color: #fff;
+                    .header
+                    {
+                        text-align: center;
+                    }
+                    .header-left
+                    {
+                        text-align: left;
+                    }
+                    .header-right
+                    {
+                        text-align: right;
+                    }
+                        .desc
+                        {
+                            font-size: 18px;
+                            img
+                            {
+                                float: right;
+                                width: 200px;
+                                height: 200px;
+                                padding: 12px;
+                            }
+                            .img-left
+                            {
+                                float: left;
+                            }
+                            &::first-letter
+                        {
+                            font-size: 30px;
+                            color: red;
+                        }
+                    }
+                }
+                &:last-child
+                {
+                    margin-left: 20px;
+                }
+            }
+        }
+    } 
+}
+.bt-11
+{
+    padding: 50px 0;
+    .container
+    {
+        // 
+        .web-link
+        {
+            box-shadow: 0px 12px 24px -12px rgba(0, 0, 0, 0.5);
+            padding: 30px;
+            h2.header
+            {
+                font-size: 24px;
+                text-align: center;
+            }
+            .list-news
+            {
+                >li
+                {
+                    font-size: 20px;
+                    .list-link
+                    {
+                        margin-left: 15px;
+                        >li
+                        {
+                            padding: 16px;
+                            &:hover
+                            {
+                                box-shadow: 0px 12px 24px -12px rgba(0, 0, 0, 0.5);
+                            }
+                            a
+                            {
+                                color: #400E32;
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.bt-4-5
+{
+    padding: 50px 0;
+    .container
+    {
+        // 
+        .html-tables
+        {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-right: 20px;
+            .table
+            {
+                min-width: 300px;
+                margin-top: 30px;
+                box-shadow: 0px 12px 24px -12px rgba(0, 0, 0, 0.5);
+                .header
+                {
+                    font-size: 22px;
+                    text-align: center;
+                }
+                .html-tb
+                {
+                    width: 100%;
+                    border: 1px solid black;
+                    border-collapse: collapse;
+                    tr
+                    {
+                        &:nth-child(even)
+                        {
+                            background-color: orange;
+                        }
+                    }
+                    th,td
+                    {
+                        padding: 10px;
+                        border: 1px solid black;
+                        border-collapse: collapse; 
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
+.bt-9
+{
+    padding: 50px 0;
+    .container
+    {
+        // 
+        .food
+        {
+            max-width: 300px;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0px 12px 24px -12px rgba(0, 0, 0, 0.5);
+            .header
+            {
+                font-size: 20px;
+                text-align: center;
+                margin-bottom: 16px;
+            }
+            .list-foods
+            {
+                border: 1px solid black;
+                border-collapse: collapse;
+                th,td
+                {
+                    border: 1px solid black;
+                    border-collapse: collapse;
+                    padding: 12px 24px;
+                    text-align: center;
+                }
+                tr
+                {
+                    &:nth-child(even)
+                    {
+                        background-color: #6096B4;
+                    }
+                }
+            }
+        }
+    }
+}
+.bt-10
+{
+    padding: 50px 0;
+    .container
+    {
+        // 
+        .result-study
+        {
+            padding: 18px;
+            box-shadow: 0px 12px 24px -12px rgba(0, 0, 0, 0.5);
+            .header
+            {
+                font-size: 20px;
+                background-color: orange;
+                color: #fff;
+                margin: 14px 0;
+            }
+            .result-tb
+            {
+                width: 100%;
+                border: 1px solid black;
+                border-collapse: collapse;
+                text-align: center;
+                background-color: rgb(211, 203, 203);
+                th,td
+                {
+                    padding: 8px;
+                    border: 1px solid black;
+                    border-collapse: collapse;
+                }
+                tr
+                {
+                    &:nth-child(even)
+                    {
+                        background-color: peru;
+                    }
+                    &:last-child
+                    {
+                        background-color: orange;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
+.bt-11
+{
+    .container
+    {
+        // 
+        .course
+        {
+            .header
+            {
+                
+            }
+            .table-course
+            {
+                width: 100%;
+                border: 1px solid black;
+                border-collapse: collapse;
+                tr,td
+                {
+                    border: 1px solid black;
+                    border-collapse: collapse;
+                }
+            }
+        }
+    }
+}

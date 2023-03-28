@@ -1,0 +1,40 @@
+$xs:576px; //mobile
+$sm:576px; //N/A
+$md:768px; //tablet
+$lg:992px; // PC
+$xl:1440px; //trở lên
+@mixin xs($xs)
+{
+    @media(max-width: $xs)
+    {
+        @content;
+    }
+}
+@mixin sm($sm)
+{
+    @media(max-width: $sm)
+    {
+        @content;
+    }
+}
+@mixin md($md)
+{
+    @media(max-width: $md)
+    {
+        @content;
+    }
+}
+@mixin lg($lg)
+{
+    @media(max-width: $lg)
+    {
+        @content;
+    }
+}
+@mixin xl($xl)
+{
+    @media(max-width: $xl)
+    {
+        @content;
+    }
+}

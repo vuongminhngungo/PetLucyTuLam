@@ -1,0 +1,18 @@
+$col:12px;
+$gutter:16px;
+.row
+{
+    display: flex;
+    flex-wrap: wrap;
+    @include xs($xs)
+    {
+        @for $i from 1 through $col
+        {
+            .col-xs-#{$i}
+            {
+                width: 100% / $col *$i;
+                padding: $gutter/2;
+            }           
+        }
+    }
+}

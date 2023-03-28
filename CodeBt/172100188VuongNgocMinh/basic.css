@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.bt9-10 {
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+}
+.bt9-10 .container .newspaper {
+  display: flex;
+}
+.bt9-10 .container .newspaper .floating {
+  max-width: 600px;
+  box-shadow: 0px 12px 24px -12px rgba(0, 0, 0, 0.5);
+}
+.bt9-10 .container .newspaper .floating section.floating-images {
+  padding: 20px;
+  background-color: #fff;
+}
+.bt9-10 .container .newspaper .floating section.floating-images .header {
+  text-align: center;
+}
+.bt9-10 .container .newspaper .floating section.floating-images .header-left {
+  text-align: left;
+}
+.bt9-10 .container .newspaper .floating section.floating-images .header-right {
+  text-align: right;
+}
+.bt9-10 .container .newspaper .floating section.floating-images .desc {
+  font-size: 18px;
+}
+.bt9-10 .container .newspaper .floating section.floating-images .desc img {
+  float: right;
+  width: 200px;
+  height: 200px;
+  padding: 12px;
+}
+.bt9-10 .container .newspaper .floating section.floating-images .desc .img-left {
+  float: left;
+}
+.bt9-10 .container .newspaper .floating section.floating-images .desc::first-letter {
+  font-size: 30px;
+  color: red;
+}
+.bt9-10 .container .newspaper .floating:last-child {
+  margin-left: 20px;
+}
+
+.bt-11 {
+  padding: 50px 0;
+}
+.bt-11 .container .web-link {
+  box-shadow: 0px 12px 24px -12px rgba(0, 0, 0, 0.5);
+  padding: 30px;
+}
+.bt-11 .container .web-link h2.header {
+  font-size: 24px;
+  text-align: center;
+}
+.bt-11 .container .web-link .list-news > li {
+  font-size: 20px;
+}
+.bt-11 .container .web-link .list-news > li .list-link {
+  margin-left: 15px;
+}
+.bt-11 .container .web-link .list-news > li .list-link > li {
+  padding: 16px;
+}
+.bt-11 .container .web-link .list-news > li .list-link > li:hover {
+  box-shadow: 0px 12px 24px -12px rgba(0, 0, 0, 0.5);
+}
+.bt-11 .container .web-link .list-news > li .list-link > li a {
+  color: #400E32;
+  text-decoration: none;
+}
+
+.bt-4-5 {
+  padding: 50px 0;
+}
+.bt-4-5 .container .html-tables {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+.bt-4-5 .container .html-tables .table {
+  min-width: 300px;
+  margin-top: 30px;
+  box-shadow: 0px 12px 24px -12px rgba(0, 0, 0, 0.5);
+}
+.bt-4-5 .container .html-tables .table .header {
+  font-size: 22px;
+  text-align: center;
+}
+.bt-4-5 .container .html-tables .table .html-tb {
+  width: 100%;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.bt-4-5 .container .html-tables .table .html-tb tr:nth-child(even) {
+  background-color: orange;
+}
+.bt-4-5 .container .html-tables .table .html-tb th, .bt-4-5 .container .html-tables .table .html-tb td {
+  padding: 10px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.bt-9 {
+  padding: 50px 0;
+}
+.bt-9 .container .food {
+  max-width: 300px;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 12px 24px -12px rgba(0, 0, 0, 0.5);
+}
+.bt-9 .container .food .header {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.bt-9 .container .food .list-foods {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.bt-9 .container .food .list-foods th, .bt-9 .container .food .list-foods td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 12px 24px;
+  text-align: center;
+}
+.bt-9 .container .food .list-foods tr:nth-child(even) {
+  background-color: #6096B4;
+}
+
+.bt-10 {
+  padding: 50px 0;
+}
+.bt-10 .container .result-study {
+  padding: 18px;
+  box-shadow: 0px 12px 24px -12px rgba(0, 0, 0, 0.5);
+}
+.bt-10 .container .result-study .header {
+  font-size: 20px;
+  background-color: orange;
+  color: #fff;
+  margin: 14px 0;
+}
+.bt-10 .container .result-study .result-tb {
+  width: 100%;
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  background-color: rgb(211, 203, 203);
+}
+.bt-10 .container .result-study .result-tb th, .bt-10 .container .result-study .result-tb td {
+  padding: 8px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.bt-10 .container .result-study .result-tb tr:nth-child(even) {
+  background-color: peru;
+}
+.bt-10 .container .result-study .result-tb tr:last-child {
+  background-color: orange;
+  color: #fff;
+}
+
+.bt-11 .container .course .table-course {
+  width: 100%;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.bt-11 .container .course .table-course tr, .bt-11 .container .course .table-course td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}/*# sourceMappingURL=basic.css.map */
